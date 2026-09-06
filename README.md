@@ -1,1 +1,3 @@
-# parcial-recuperatorio-informatica-general
+Maitena Achigar
+Segundo Parcial - Informática General
+Artes Multimediales - UNA
