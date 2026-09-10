@@ -81,7 +81,7 @@ article{
 }
 .columnasSecDos{
     margin: 1rem;
-    padding: 2rem;
+    padding: 1rem;
 }
 .columnasSecDos p{
     text-align: left;
@@ -95,6 +95,21 @@ article{
     margin: auto;
     padding: auto;
     border-radius: 0.5rem;
+}
+#galeriaArte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#galeriaArte img {
+    padding: 1rem;
+    width: 355px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+#galeriaArte p{
+    font-weight: 400;
 }
 p ,h1 ,h2 ,h3 ,ul ,ol ,q{
     text-align: center;
