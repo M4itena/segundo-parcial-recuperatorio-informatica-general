@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+    font-size: medium;
+    /*Tipografia*/
+}
+body{
+    background-image: url(../imagenes/fondo.png);
+}
+#contendor{
+    background-color: rgb(104, 159, 231);
+    margin: 5rem;
+    padding: 2rem 1rem;
+    border-radius: 1.5rem;
+}
+.encabezado{
+    background-color: rgb(138, 177, 228);
+    padding: 2rem 2rem;
+    border-radius: 1.5rem;
+}
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.navegador li{
+    display: inline-block;
+}
+.navegador a{
+    font-size: 1rem;
+    line-height: 2.2rem;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.navegador a:link{
+    background-color: rgb(104, 159, 231);
+    color: rgb(2, 9, 71);
+    border-radius: 1.5rem;
+}
+.navegador a:visited{
+    background-color:rgb(90, 137, 199);
+    color: rgb(34, 3, 92);
+}
+.navegador a:hover{
+    background-color:rgb(52, 81, 119);
+    color: rgb(104, 159, 231);
+}
+.navegador a:active{
+    background-color:rgb(31, 49, 71);
+    color:  rgb(169, 201, 241);
+}
+/*Main*/
+section{
+    background-color: rgb(138, 177, 228);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1.5rem;
+}
+article{
+    text-align: left;
+   	padding: 1em;
+	margin: 1em;
+}
+/*Columnas de la pagina 1*/
+.columnas{
+    display: flex;
+}
+.columnas p{
+    text-align: left;
+}
+/*Columnas de la pagina 2*/
+.columnasPagDos{
+    display: flex;
+}
+.articuloGrande{
+    width: 65%;
+}
+.articuloChico{
+    width: 35%;
+}
+.columnasSecDos{
+    margin: 1rem;
+    padding: 2rem;
+}
+.columnasSecDos p{
+    text-align: left;
+}
+.imagenescentrado{
+    width: 300px;
+    height: 150;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    border-radius: 0.5rem;
+}
+p ,h1 ,h2 ,h3 ,ul ,ol ,q{
+    text-align: center;
+    color: rgb(11, 55, 112);
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+h3{
+    font-size:1rem;
+}
+.listauno ul,h3{
+    text-align: left;
+}
+.datosCuriosos h2,p,button{
+    text-align: center;
+    justify-content: center;
+}
+button{
+    background-color: rgb(11, 55, 112);
+    color: rgb(138, 177, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+}
+form{
+    background-color: rgb(104, 159, 231);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+fieldset{
+    background-color: rgb(138, 177, 228);
+    color: rgb(11, 55, 112);
+    border: 0;
+    margin: 0.5rem;
+    border-radius: 1.5rem;
+}
+input{
+    background-color:rgb(104, 159, 231);
+    border: 0;
+    border-radius: 1.5rem;
+}
+input::placeholder{
+    color: rgb(62, 84, 114);
+}
+.pieDePagina{
+    background-color: rgb(138, 177, 228);
+    padding: 2rem 2rem;
+    border-radius: 1.5rem;
+}
+.pieDePagina address{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(11, 55, 112);
+}
