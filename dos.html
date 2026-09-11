@@ -28,9 +28,31 @@
             <main>
                 <!--Seccion uno-->
                 <section class="columnas">
-                    <article>
-                        <!--Contenido-->
+                    <article id="formularioEjercicio">
+                        <h2>Gestiona una obra de Rafael Lozano-Hemmer</h2>
+                        <p>En esta pagian puedes simular armar un sistema para controlar el funcionamiento de las luces móviles de las obras de Rafael Lozano-Hemmer. Por favor ingresa los datos pedidos en el formulario.</p>
+                        <form action="#" method="get">
+                            <fieldset>
+                                <legend><strong>Información del simulador</strong></legend>
+                                <label for="cantidadObras">Cantidad de obras: </label>
+                                <input type="number" name="cantidadObras" id="cantidadObras" required>
+                                <label for="obraNombre">Dele un nombre a cada obra: </label>
+                                <input type="text" name="obraNombre" id="obraNombre" required>
+                                <label for="tiempoPerHora">Tiempo de funcionamiento por día en horas: </label>
+                                <input type="number" name="tiempoPerHora" id="tiempoPerHora" required>
+                            </fieldset>
+                            <fieldset>
+                                <legend><strong>Consumo del sistema</strong></legend>
+                                <label for="consumoPerHoraluz">Consumo por hora de electricidad de cada luz móvil: </label>
+                                <input type="number" name="consumoPerHoraluz" id="consumoPerHoraluz" required>
+                                <label for="costoKwh">Costo por kWh: </label>
+                                <input type="number" name="costoKwh" id="costoKwh" required>
+                            </fieldset>
+                            <button type="submit" id="botonFormEnviar">Enviar</button>
+                            <button type="reset" id="botonFormBorrar">Borrar</button>
+                        </form>
                     </article>
+
                 </section>
             </main>
             <!--Pie de pagina-->
