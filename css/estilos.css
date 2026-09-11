@@ -96,6 +96,12 @@ article{
     padding: auto;
     border-radius: 0.5rem;
 }
+.lozanoImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
 #galeriaArte{
     display: flex;
     flex-wrap: wrap;
